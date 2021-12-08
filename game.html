@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="play.js"></script>
+
+</head>
+<body>
+<h4 id="player1_name">  </h4> <span id="score1"> </span>
+<br>
+<h4 id="player2_name">  </h4> <span id="score2"> </span>
+<div class="container">
+     <center>  
+<h1> Quiz Time! </h1>
+    <h3 id="whos_turn">  </h3>
+    <h3 id="answer_turn">  </h3>
+    <div id="output" class="col-lg-6">  </div>
+    <br>
+    <br>
+    <label> Add 1 number in each input, for they will be multiplied and your opponent will have to solve it to earn a point</label>
+    <br>
+    <input id="one" class="form-control" type="number" placeholder="Type Here!">
+    <br>
+    <br>
+    <input id="two" class="form-control" type="number" placeholder="Type Here!">
+    <br>
+
+    <button id="send" class=" btn btn-danger" onclick="send()"> Send </button>
+</center> </div>
+
+
+
+
+</body>
+</html>
